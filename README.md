@@ -5,7 +5,7 @@ Prerequisite for Angular:
 
 Steps to build and deploy on local browser:
 
-1)	Download the repo from Github.
+1)	Download/Clone the repo from Github.
 2)	Open "Command Prompt"/"PowerShell"/"Terminal of visual studio code" and Change Directory to the folder where project is cloned/downloaded.
 3)	Run command “npm install” to install node_modules of the Angular project.
 4)	Run command “ng serve” to serve on local browser.
