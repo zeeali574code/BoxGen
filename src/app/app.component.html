@@ -1,0 +1,11 @@
+
+<div id="content">
+  <div id=box-{{box}} class="box" (click)="setRow(box)" *ngFor="let box of boxes" [ngStyle] ="{'z-index':box,'top':(box+1)*80 > 470 ? 10+'px' :(box+1)*80 +'px','left':'20px'}" 
+  [ngClass]="{'highlight': selectedIndex === box} ">
+  {{box+1}}
+</div>
+</div>
+
+<button (click)="addNewBox()">Add new Box</button> &nbsp;
+<button (click)="ToggleKeyboard()">{{ToggleValue}} Keyboard</button>
+<router-outlet></router-outlet>

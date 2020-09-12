@@ -1,0 +1,17 @@
+
+  .box{
+    width:100px;
+    height:70px;
+    margin:7px;
+    border:1px solid black;
+ position: absolute;
+  
+  }
+
+  #content{
+      border:dashed 5px black;
+      width:800px;
+      height: 500px;
+      overflow: hidden;
+  }
+  .highlight{ background-color: #FFFF00; }
